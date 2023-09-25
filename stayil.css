@@ -177,6 +177,9 @@ main {
   html {
     font-size: 50%;
   }
+  main{
+    width: 666px;
+  }
   .container {
     max-width: 90%;
     margin: 0 auto;
@@ -185,6 +188,7 @@ main {
 /* salom */
 @media (max-width: 675px) {
   main {
+    width: 430px;
     height: 570px;
   }
   section {
@@ -214,7 +218,21 @@ main {
     font-size: 38%;
   }
   main {
+    width: 340px;
     height: 420px;
+  }
+  section {
+    height: 420px;
+  }
+}
+@media (max-width: 320px) {
+  html {
+    font-size: 38%;
+  }
+  main {
+    width: 300px;
+    height: 420px;
+    transform: translate(-7px, 10px);
   }
   section {
     height: 420px;

@@ -19,8 +19,6 @@ let currentScore,
 function init() {
   score0El.textContent = 0;
   score1El.textContent = 0;
-  //   dice.style.display = 'none';
-
   document.getElementById(`current--${activePlayer}`).textContent = 0;
 
   currentScore = 0;
@@ -49,7 +47,7 @@ init();
 
 btnRollDice.addEventListener('click', function () {
   if (playing) {
-    let random = Math.trunc(Math.random() * 6) + 1; // 1 ... 6
+    let random = Math.trunc(Math.random() * 6) + 1; 
 
     dice.src = `./img/dice-${random}.png`;
     dice.style.display = 'inline-block';
@@ -85,7 +83,7 @@ btnNewGame.addEventListener('click', init);
 
 dice.addEventListener('click', () => {
   if (playing) {
-    let random = Math.trunc(Math.random() * 6) + 1; // 1 ... 6
+    let random = Math.trunc(Math.random() * 6) + 1; 
 
     dice.src = `./img/dice-${random}.png`;
     dice.style.display = 'inline-block';
