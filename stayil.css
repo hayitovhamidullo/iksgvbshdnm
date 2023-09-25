@@ -188,7 +188,7 @@ main {
 /* salom */
 @media (max-width: 675px) {
   main {
-    width: 378px;
+    width: 430px;
     height: 570px;
   }
   section {
@@ -207,9 +207,18 @@ main {
     font-size: 2.85rem;
     font-weight: 200;
   }
+  .btn--roll{
+    margin-top: 50px;
+  }
+  .btn--hold{
+    margin-top: 50px;
+  }
   .current {
     width: 75%;
     padding: 1.5rem;
+    margin-top: 163px;
+    position: absolute;
+    width: 95px;
   }
 }
 
@@ -218,55 +227,21 @@ main {
     font-size: 38%;
   }
   main {
-    width: 331px;
+    width: 340px;
     height: 420px;
   }
   section {
     height: 420px;
   }
 }
-@media (max-width: 360px) {
+@media (max-width: 320px) {
   html {
     font-size: 38%;
   }
-  #name--0{
-    transform: rotate(180deg);
-    margin-top: 20px;
-  }
-  #score--0{
-    transform: rotate(180deg);
-  }
-  .imgnam_one{
-    transform: translate(64px, 30px);
-  }
-  .imgnam{
-    transform: translate(-138px, 347px);
-  }
-  .numbernam{
-      transform: rotate(180deg);
-  }
-  .btn--roll{
-    transform: translate(-57px, -231px);
-  }
-  .btn--hold{
-    transform: translate(-43px, 15px);
-  }
-  .btn--new{
-    transform: translate(-58px, 324px);
-  }
-  .current{
-    transform: translate(7px, -17px);
-  }
-  .bal{
-    transform: translate(-58px, 360px);
-  }
   main {
-    width: 292px;
+    width: 300px;
     height: 420px;
     transform: translate(-7px, 10px);
-    display: flex;
-    flex-direction: column;
-    height: 90vh;
   }
   section {
     height: 420px;

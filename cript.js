@@ -19,6 +19,7 @@ let currentScore,
 function init() {
   score0El.textContent = 0;
   score1El.textContent = 0;
+
   document.getElementById(`current--${activePlayer}`).textContent = 0;
 
   currentScore = 0;
