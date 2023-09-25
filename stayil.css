@@ -218,7 +218,7 @@ main {
     font-size: 38%;
   }
   main {
-    width: 340px;
+    width: 331px;
     height: 420px;
   }
   section {
@@ -229,10 +229,44 @@ main {
   html {
     font-size: 38%;
   }
+  #name--0{
+    transform: rotate(180deg);
+    margin-top: 20px;
+  }
+  #score--0{
+    transform: rotate(180deg);
+  }
+  .imgnam_one{
+    transform: translate(64px, 30px);
+  }
+  .imgnam{
+    transform: translate(-138px, 347px);
+  }
+  .numbernam{
+      transform: rotate(180deg);
+  }
+  .btn--roll{
+    transform: translate(-57px, -231px);
+  }
+  .btn--hold{
+    transform: translate(-43px, 15px);
+  }
+  .btn--new{
+    transform: translate(-58px, 324px);
+  }
+  .current{
+    transform: translate(7px, -17px);
+  }
+  .bal{
+    transform: translate(-58px, 360px);
+  }
   main {
-    width: 300px;
+    width: 292px;
     height: 420px;
     transform: translate(-7px, 10px);
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
   }
   section {
     height: 420px;
